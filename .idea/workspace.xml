@@ -14,6 +14,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1XM25vzx8u2wFpnukZ1qp2fgwN1" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -25,6 +28,20 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
+  </component>
+  <component name="RunManager">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="hang-man-andy-edition" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -44,6 +61,22 @@
       <screen x="0" y="0" width="1218" height="720" />
     </state>
     <state x="202" y="20" key="#Project_Structure/0.0.1218.720@0.0.1218.720" timestamp="1580841481967" />
+    <state width="1140" height="160" key="GridCell.Tab.0.bottom" timestamp="1580841775790">
+      <screen x="0" y="0" width="1218" height="720" />
+    </state>
+    <state width="1140" height="160" key="GridCell.Tab.0.bottom/0.0.1218.720@0.0.1218.720" timestamp="1580841775790" />
+    <state width="1140" height="160" key="GridCell.Tab.0.center" timestamp="1580841775790">
+      <screen x="0" y="0" width="1218" height="720" />
+    </state>
+    <state width="1140" height="160" key="GridCell.Tab.0.center/0.0.1218.720@0.0.1218.720" timestamp="1580841775790" />
+    <state width="1140" height="160" key="GridCell.Tab.0.left" timestamp="1580841775790">
+      <screen x="0" y="0" width="1218" height="720" />
+    </state>
+    <state width="1140" height="160" key="GridCell.Tab.0.left/0.0.1218.720@0.0.1218.720" timestamp="1580841775790" />
+    <state width="1140" height="160" key="GridCell.Tab.0.right" timestamp="1580841775790">
+      <screen x="0" y="0" width="1218" height="720" />
+    </state>
+    <state width="1140" height="160" key="GridCell.Tab.0.right/0.0.1218.720@0.0.1218.720" timestamp="1580841775790" />
     <state x="310" y="186" key="com.intellij.ide.util.TipDialog" timestamp="1580841466354">
       <screen x="0" y="0" width="1218" height="720" />
     </state>
