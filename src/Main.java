@@ -27,6 +27,7 @@ public class Main
             {
                 newWord = getRandomWord(words);
                 System.out.println(newWord);
+                newGame = false;
             }
             System.out.println("Enter a guess");
             char guess = getGuess();
@@ -47,15 +48,32 @@ public class Main
                 newGame = false;
                 if(gameOver())
                 {
-
+                    Scanner scan = new Scanner(System.in);
+                    isPlaying = false;
+                    System.out.println("You've won!");
+                    System.out.println("Would you like to play again? [Y]es or [N]o");
+                    char playingAnother = scan.nextLine().toLowerCase().charAt(0);
+                    if(playingAnother == 'y')
+                    {
+                        isPlaying = true;
+                        newGame = true;
+                        usedLetters.removeAll(usedLetters);
+                    }
+                    else if(playingAnother == 'n')
+                    {
+                        System.out.println("Thanks for playing!");
+                    }
                 }
             }
         }
     }
 
-    private static void gameOver()
+    private static boolean gameOver()
     {
-        
+        if(missingLetters(newWord, usedLetters).equals(newWord)) {
+            return true;
+        }
+        return false;
     }
     private static String missingLetters(String word, ArrayList<Character> letters) //Returns the word with the correct guessed letters
     {
